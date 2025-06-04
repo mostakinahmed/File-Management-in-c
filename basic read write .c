@@ -23,7 +23,7 @@ int main()
     {
 
         fprintf(fp, "%s %s\n", name, pass);
-        // fclose(fp);
+        fclose(fp);
     }
 
     fp = fopen("data.text", "r");
