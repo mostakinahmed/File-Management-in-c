@@ -12,7 +12,7 @@ int main()
 
     FILE *fp;
     // create file
-    fp = fopen("data.text", "a");
+    fp = fopen("data.txt", "a");
 
     // send data to file
     if (fp == NULL)
@@ -26,7 +26,7 @@ int main()
         fclose(fp);
     }
 
-    fp = fopen("data.text", "r");
+    fp = fopen("data.txt", "r");
     // data read
     while (fscanf(fp, "%s %s", fName, fPass) != EOF)
     {
