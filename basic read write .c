@@ -5,10 +5,10 @@ int main()
     char pass[100];
     char fName[100];
     char fPass[100];
-    // printf("Enter userName : ");
-    // gets(name);
-    // printf("Enter pass : ");
-    // gets(pass);
+    printf("Enter userName : ");
+    gets(name);
+    printf("Enter pass : ");
+    gets(pass);
 
     FILE *fp;
     // create file
