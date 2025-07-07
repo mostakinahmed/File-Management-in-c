@@ -161,7 +161,7 @@ int main()
         case 3:
             dispData();
             break;
-        case 0:
+        case 4:
             return 0;
         }
     }
